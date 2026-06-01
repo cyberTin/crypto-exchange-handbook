@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>写给实习生的加密交易所知识手册 | Crypto Exchange Handbook — Bond Tian</title>
+  <meta name="description" content="全网唯一由真实加密交易所从业者撰写的实战知识手册。前 Huobi/OKX 高管 Bond Tian 著，78 页系统讲解加密货币交易所运营、交易机制、合规监管。免费下载 PDF。">
+  <meta name="keywords" content="加密货币交易所,加密交易所知识手册,Crypto Exchange Handbook,区块链入门,数字货币交易平台,加密交易所实习,Bond Tian,田邦德,Huobi,OKX,Web3,交易所运营,比特币,以太坊">
+  <meta name="author" content="Bond Tian (田邦德)">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://cybertin.github.io/crypto-exchange-handbook/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="写给实习生的加密交易所知识手册 — Bond Tian">
+  <meta property="og:description" content="全网唯一由真实加密交易所从业者撰写的实战知识手册。前 Huobi/OKX 高管著，免费下载。">
+  <meta property="og:type" content="book">
+  <meta property="og:url" content="https://cybertin.github.io/crypto-exchange-handbook/">
+  <meta property="og:image" content="https://cybertin.github.io/crypto-exchange-handbook/og-image.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="book:author" content="Bond Tian">
+  <meta property="book:isbn" content="">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="写给实习生的加密交易所知识手册 — 免费下载">
+  <meta name="twitter:description" content="前 Huobi/OKX 高管 Bond Tian 著。全网唯一从业者撰写的加密交易所实战手册。78 页，免费下载。">
+  <meta name="twitter:image" content="https://cybertin.github.io/crypto-exchange-handbook/og-image.png">
+
+  <!-- Structured Data (Schema.org Book) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "写给实习生的加密交易所知识手册",
+    "alternateName": "Crypto Exchange Knowledge Handbook for Interns",
+    "author": {
+      "@type": "Person",
+      "name": "Bond Tian",
+      "alternateName": "田邦德",
+      "description": "前 Huobi / OKX 高管，10 年加密货币交易所从业经验",
+      "email": "bond.tian@protonmail.com"
+    },
+    "description": "全网唯一由真实加密交易所从业者撰写的实战知识手册。78 页系统讲解加密货币交易所运营、交易机制、合规监管与行业演化史。",
+    "inLanguage": ["zh-CN", "en"],
+    "isAccessibleForFree": true,
+    "numberOfPages": 78,
+    "genre": "Educational",
+    "about": ["Cryptocurrency Exchange", "Blockchain", "Bitcoin", "Digital Currency", "FinTech", "Web3"],
+    "educationalLevel": "Beginner",
+    "datePublished": "2025",
+    "publisher": {
+      "@type": "Person",
+      "name": "Bond Tian"
+    }
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      color: #1a1a2e;
+      background: #f8f9fa;
+      line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    h1 { font-size: 2rem; color: #0f0f23; margin-bottom: 12px; }
+    .subtitle { color: #555; font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
+    .badges { margin: 20px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .badge-free { background: #d4edda; color: #155724; }
+    .badge-unique { background: #fff3cd; color: #856404; }
+    .badge-en { background: #e8d5f5; color: #553c9a; }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      border: 1px solid #e8eaed;
+    }
+    .card h2 { font-size: 1.35rem; margin-bottom: 16px; color: #0f0f23; }
+    .card p { margin-bottom: 12px; color: #444; }
+    .card p:last-child { margin-bottom: 0; }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 6px 8px 6px 0;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .btn-primary { background: #0366d6; color: white; }
+    .btn-purple { background: #6f42c1; color: white; }
+    .btn-gh { background: #24292e; color: white; }
+    .author-card { display: flex; gap: 16px; align-items: flex-start; }
+    .author-avatar { font-size: 3rem; line-height: 1; }
+    .author-info h3 { font-size: 1.1rem; margin-bottom: 4px; }
+    .author-info p { color: #666; font-size: 0.95rem; margin-bottom: 6px; }
+    .topics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .topic-tag {
+      background: #f0f2f5;
+      color: #555;
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      color: #999;
+      font-size: 0.85rem;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e8eaed;
+    }
+    footer a { color: #0366d6; text-decoration: none; }
+    @media (max-width: 600px) {
+      body { padding: 24px 16px 60px; }
+      h1 { font-size: 1.5rem; }
+      .btn { display: block; text-align: center; margin: 8px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📘 写给实习生的加密交易所知识手册</h1>
+  <p class="subtitle">
+    全网唯一由真实加密交易所从业者撰写的实战知识手册<br>
+    前 Huobi / OKX 高管 · 10 年一线经验 · 78 页 · 永久免费
+  </p>
+  <div class="badges">
+    <span class="badge badge-free">🆓 永久免费</span>
+    <span class="badge badge-unique">🏆 行业唯一</span>
+    <span class="badge badge-en">🌐 中英双语</span>
+  </div>
+</header>
+
+<!-- 中文版 -->
+<div class="card">
+  <h2>🇨🇳 中文版下载</h2>
+  <p>全书 78 页，系统讲解加密货币交易所的市场结构、交易机制、运营体系、合规监管、风险管理及行业演化史。不卖弄术语，不炫技术——外行能懂，内行看出门道。</p>
+  <a class="btn btn-primary" href="./写给实习生的加密交易所知识手册.pdf">⬇ 下载中文版 PDF（5MB）</a>
+  <a class="btn btn-gh" href="https://github.com/cyberTin/crypto-exchange-handbook">⭐ GitHub 仓库</a>
+</div>
+
+<!-- English -->
+<div class="card">
+  <h2>🇺🇸 English Version</h2>
+  <p>The only comprehensive handbook in the entire crypto exchange industry written by a real practitioner. Designed for university students and early-career professionals.</p>
+  <a class="btn btn-purple" href="./Crypto_Exchange_Knowledge_Handbook_for_Interns_EN_polished.pdf">⬇ Download English PDF</a>
+</div>
+
+<!-- Author -->
+<div class="card">
+  <div class="author-card">
+    <div class="author-avatar">👤</div>
+    <div class="author-info">
+      <h3>Bond Tian · 田邦德</h3>
+      <p>
+        英国伯明翰大学理学硕士 · 长江商学院 MBA，英国皇家特许市场营销学会 会士<br>
+        加密货币交易所资深从业者，超过 10 年行业经验。<br>
+        曾先后在 <strong>Huobi（火币）</strong> 和 <strong>OKX</strong> 担任高管，负责平台运营、市场营销及政府关系。
+      </p>
+      <p style="font-size:0.85rem;color:#888;">📧 bond.tian@protonmail.com</p>
+    </div>
+  </div>
+</div>
+
+<!-- TOC -->
+<div class="card">
+  <h2>📚 内容概览</h2>
+  <div class="topics">
+    <span class="topic-tag">加密货币基础</span>
+    <span class="topic-tag">交易所商业模式</span>
+    <span class="topic-tag">CEX vs DEX</span>
+    <span class="topic-tag">交易机制</span>
+    <span class="topic-tag">撮合引擎</span>
+    <span class="topic-tag">做市商与流动性</span>
+    <span class="topic-tag">运营体系</span>
+    <span class="topic-tag">上币流程</span>
+    <span class="topic-tag">合规与监管</span>
+    <span class="topic-tag">KYC/AML</span>
+    <span class="topic-tag">风险管理</span>
+    <span class="topic-tag">资金安全</span>
+    <span class="topic-tag">行业演化史</span>
+    <span class="topic-tag">Mt.Gox → FTX</span>
+    <span class="topic-tag">职业发展</span>
+    <span class="topic-tag">岗位图谱</span>
+  </div>
+</div>
+
+<footer>
+  <p>
+    © Bond Tian · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> ·
+    免费用于教育目的 · 禁止商业使用与修改
+  </p>
+  <p style="margin-top:8px;">
+    本项目托管于 <a href="https://github.com/cyberTin/crypto-exchange-handbook">GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
