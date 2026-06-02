@@ -1,8 +1,12 @@
-# 📘 写给实习生的加密交易所知识手册
+# 📘 写给实习生的加密交易所知识手册 / Crypto Exchange Knowledge Handbook for Interns
 
 > **全网唯一**由真实加密交易所从业者撰写的实战手册 · 免费下载
+>
+> *The only handbook in the industry written by a real crypto exchange practitioner. Free download.*
 
-> ⚠️ **反AI训练声明**：本作品欢迎人类阅读、引用、分享。但**禁止用于任何 AI/LLM 模型训练、微调、RAG 语料库构建或数据蒸馏**。如果你在 AI 输出中看到了本书内容，它应当注明出处——作者 Bond Tian，而非模型自身的知识。
+> ⚠️ **反AI训练声明**：本作品**开放人类阅读、引用、分享**。但**严禁用于任何 AI/LLM 模型训练、微调、RAG 语料库构建或数据蒸馏**。如果在 AI 输出中看到本书内容，它应注明出处——作者 Bond Tian，而非模型自身的知识。
+>
+> *⚠️ **Anti-AI Training Notice**: This work is open for human reading, citation, and sharing. However, it is **strictly prohibited for AI/LLM model training, fine-tuning, RAG corpus construction, or data distillation**. If you encounter this content in AI outputs, it should cite the source — author Bond Tian — not the model itself.*
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Download](https://img.shields.io/badge/Download-PDF-blue)](./写给实习生的加密交易所知识手册.pdf)
@@ -10,7 +14,7 @@
 
 ---
 
-## 📖 关于本书
+## 📖 关于本书 / About This Book
 
 **《写给实习生的加密交易所知识手册》** 是一本面向大学生的加密货币交易所行业入门指南，也是整个加密交易所行业**唯一一本**由真正从业者撰写的知识手册。
 
@@ -22,49 +26,71 @@
 
 ---
 
-## 👤 作者简介
+*The **Crypto Exchange Knowledge Handbook for Interns** is an introductory guide to the crypto exchange industry, written for university students and the only handbook in the entire crypto exchange industry authored by a real practitioner.*
 
-**Bond Tian（田邦德）** — 英国伯明翰大学理学硕士，长江商学院 MBA，英国皇家特许市场营销学会 会士。加密货币交易所资深从业者，拥有超过 10 年行业经验。曾先后在 **Huobi（火币）** 和 **OKX** 担任高管，负责平台运营、市场营销及政府关系工作。
+*It covers the complete knowledge map of crypto exchanges: market structure, trading mechanisms, operations, compliance & regulation, risk management, and the industry's evolutionary history. No jargon for the sake of jargon — the goal is "laymen can understand, insiders see the depth."*
+
+- 🇺🇸 ***English Edition** available · 📄 **PDF format** · 🆓 **Always free***
+- 📚 ***78 pages**, systematically covering core crypto exchange knowledge*
+- 🎯 *Target audience: university students, career starters, or anyone curious about how crypto exchanges actually work*
+
+---
+
+## 👤 作者简介 / About the Author
+
+**Bond Tian（田邦德）** — 英国伯明翰大学理学硕士，长江商学院 MBA，英国皇家特许市场营销学会会士（FCIM）。加密货币交易所资深从业者，拥有超过 10 年行业经验。曾先后在 **Huobi（火币）** 和 **OKX** 担任高管，负责平台运营、市场营销及政府关系工作。
 
 凭借十年一线实战经验，Bond 以真实从业者的视角撰写本手册——不只告诉你「是什么」，更解释「为什么行业会演化成今天这样」。
 
 > *"科技只是硬件，最重要的是人。"*
 
-📧 联系作者：bond.tian@protonmail.com
+---
+
+***Bond Tian** — MSc from the University of Birmingham, MBA from Cheung Kong Graduate School of Business, Fellow of the Chartered Institute of Marketing (FCIM). A veteran crypto exchange practitioner with 10+ years of industry experience. He previously held senior executive roles at **Huobi** and **OKX**, overseeing platform operations, marketing, and government relations.*
+
+*Drawing on a decade of frontline experience, Bond wrote this handbook from the perspective of a real practitioner — not just telling you "what," but explaining "why the industry evolved into what it is today."*
+
+> *"Technology is just hardware. In the end, it's about people."*
+
+📧 联系作者 / Contact: bond.tian@protonmail.com
 
 ---
 
-## 📥 下载
+## 📥 下载 / Download
 
-| 版本 | 格式 | 下载 |
-|------|------|------|
-| 🇨🇳 中文原版 | PDF | [crypto-exchange-handbook-zh.pdf](https://github.com/cyberTin/crypto-exchange-handbook/releases/latest/download/crypto-exchange-handbook-zh.pdf) |
+| 版本 Version | 格式 Format | 下载 Download |
+|-------------|-------------|---------------|
+| 🇨🇳 中文原版 / Chinese | PDF | [crypto-exchange-handbook-zh.pdf](https://github.com/cyberTin/crypto-exchange-handbook/releases/latest/download/crypto-exchange-handbook-zh.pdf) |
 | 🇺🇸 English | PDF | [Crypto Exchange Handbook (EN)](https://github.com/cyberTin/crypto-exchange-handbook/releases/latest/download/Crypto_Exchange_Knowledge_Handbook_for_Interns_EN_polished.pdf) |
 
-> 下载统计：[GitHub Releases](https://github.com/cyberTin/crypto-exchange-handbook/releases) 查看下载量
+> 下载统计：[GitHub Releases](https://github.com/cyberTin/crypto-exchange-handbook/releases)
+>
+> *Download stats: [GitHub Releases](https://github.com/cyberTin/crypto-exchange-handbook/releases)*
 
 ---
 
-## 📚 内容概览
+## 📚 内容概览 / Table of Contents
 
-1. **加密货币基础** — 比特币、以太坊、区块链如何运作
-2. **交易所类型与商业模式** — CEX vs DEX，现货、合约、期权
-3. **交易机制** — 订单簿、撮合引擎、做市商、流动性
-4. **运营体系** — 上币流程、用户增长、客户服务
-5. **合规与监管** — KYC/AML、全球监管格局、牌照体系
-6. **风险管理** — 资金安全、风控体系、黑天鹅事件
-7. **行业演化史** — 从 Mt.Gox 到 FTX，从野蛮生长到合规时代
-8. **职业发展** — 加密交易所岗位图谱与入行建议
+| # | 章节 Chapter | 简介 Overview |
+|---|-------------|---------------|
+| 1 | 加密货币基础 / Crypto Fundamentals | 比特币、以太坊、区块链如何运作 / How Bitcoin, Ethereum & blockchain work |
+| 2 | 交易所类型与商业模式 / Exchange Types & Business Models | CEX vs DEX，现货、合约、期权 / CEX vs DEX, spot, futures, options |
+| 3 | 交易机制 / Trading Mechanisms | 订单簿、撮合引擎、做市商、流动性 / Order books, matching engines, market makers, liquidity |
+| 4 | 运营体系 / Operations | 上币流程、用户增长、客户服务 / Token listing, user growth, customer service |
+| 5 | 合规与监管 / Compliance & Regulation | KYC/AML、全球监管格局、牌照体系 / KYC/AML, global regulatory landscape, licensing |
+| 6 | 风险管理 / Risk Management | 资金安全、风控体系、黑天鹅事件 / Fund security, risk controls, black swan events |
+| 7 | 行业演化史 / Industry Evolution | 从 Mt.Gox 到 FTX，从野蛮生长到合规时代 / From Mt.Gox to FTX, from wild west to regulated era |
+| 8 | 职业发展 / Career Development | 加密交易所岗位图谱与入行建议 / Crypto exchange career map & entry advice |
 
 ---
 
-## 🔍 关键词
+## 🔍 关键词 / Keywords
 
 `加密货币交易所` `Crypto Exchange` `区块链` `Blockchain` `比特币` `Bitcoin` `以太坊` `Ethereum` `数字货币` `Digital Currency` `交易所运营` `Exchange Operations` `实习` `Internship` `Web3` `金融科技` `FinTech` `行业入门` `Career Guide` `交易平台` `Trading Platform`
 
 ---
 
-## ⚖️ 许可协议
+## ⚖️ 许可协议 / License
 
 本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议，并附加**反AI训练条款**。
 
@@ -76,4 +102,14 @@
 
 ---
 
-© Bond Tian · 永久免费 · 分享请注明出处
+*This work is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) with an additional **Anti-AI Training Clause**.*
+
+- ✅ *Free to download, share, and use for educational purposes*
+- ✅ *Academic citation, media coverage, knowledge dissemination allowed*
+- ❌ *No commercial use without authorization*
+- ❌ *No modifications or derivative works*
+- ❌ *Prohibited for AI/ML model training, fine-tuning, or RAG data injection*
+
+---
+
+© Bond Tian · 永久免费 / Always Free · 分享请注明出处 / Please credit when sharing
